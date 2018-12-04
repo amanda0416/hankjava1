@@ -5,6 +5,14 @@ import java.util.Random;
 public class PokerGame {
 
 	public static void main(String[] args) {
+		Card [] cards = new Card[52];
+		cards [0] = new Card(22);
+		System.out.println(cards[0].get());
+		
+		Poker poker = new Poker();
+		poker.shuffle();
+		poker.print();
+		
 		/*int[]nums = new int[5];
 		nums[0] = 77;
 		nums[4] = 98;
@@ -14,17 +22,19 @@ public class PokerGame {
 			System.out.println(nums[i]);
 		}*/
 		
-		char a = 0x2660;
+		/*char a = 0x2660;
 		char b = 0x2665;
 		char c = 0x2666;
 		char d = 0x2663;
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
-		System.out.println(d);
+		System.out.println(d);*/
 		
-		int[]poker = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-		System.out.println(poker);
+		/*int i;
+		for(i=0 ; i<3 ; i++){
+			System.out.println(i);
+		}*/
 		
 		/*Random random = new Random();
 		int pokerN = random.nextInt(13)+1;
