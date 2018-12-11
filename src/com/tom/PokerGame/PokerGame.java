@@ -10,7 +10,7 @@ public class PokerGame {
 		System.out.println(cards[0].get());
 		
 		Poker poker = new Poker();
-		poker.shuffle();
+		//poker.shuffle();
 		poker.print();
 		
 		/*int[]nums = new int[5];
